@@ -15,7 +15,7 @@ class Instructions extends Component {
     store.subscribe(() => {
       const reduxState = store.getState();
       this.setState({
-        instructions: reduxState.instuctions
+        instructions: reduxState.instructions
       })
     })
   }
